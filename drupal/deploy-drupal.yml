@@ -26,7 +26,7 @@ spec:
           # - Each init container must complete successfully before the next one starts.
       containers:
       - name:  drupal
-        image:  zterry95/drupal-quick:8
+        image:  zterry95/drupal-quick
         resources:
           requests:
             cpu: 100m
